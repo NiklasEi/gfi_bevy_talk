@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# A Talk about Bevy
 
-To start the slide show:
+*hosted at https://gfi.slides.nikl.me*
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+This talk is for the event ["Open Source in der Spieleentwicklung"](https://ak-oss.gi.de/veranstaltung/information/open-source-in-der-spieleentwicklung) of the Gesellschaft für Informatik - Arbeitskreis Open Source Software
