@@ -25,6 +25,9 @@ imageColClass: oicana-image
 - Playing with Bevy in my free-time for more than 3 years
 - Maintaining multiple open source Bevy extensions/projects
 
+<div class="footnotes">
+<a href="https://niklme.itch.io/oicana">https://niklme.itch.io/oicana</a>
+</div>
 ---
 layout: image-right
 image: bevy_github.png
@@ -37,6 +40,9 @@ image: bevy_github.png
 - Big community
   - official Discord with thousands of active users
 
+<div class="footnotes">
+<a href="https://github.com/bevyengine/bevy">https://github.com/bevyengine/bevy</a>
+</div>
 ---
 layout: image-right
 image: tunnet_steam.png
@@ -64,8 +70,8 @@ image: tunnet_steam.png
 
 # Rust
 
-- Automatic memory management without GC
 - Performance comparable with C and C++
+- Automatic memory management without GC
 - Nice, modern tooling
 
 ---
