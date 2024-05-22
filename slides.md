@@ -1,18 +1,33 @@
 ---
 layout: cover
 theme: dracula
+background: bistro_masked.jpg
+favicon: https://www.nikl.me/favicon.ico
 ---
 
 # The Open Source Game Engine Bevy
 
+A refreshingly simple data-driven game engine built in Rust
+Free and Open Source Forever!
+
+<div class="footnotes">
+<a href="https://github.com/DGriffin91/bevy_bistro_scene">https://github.com/DGriffin91/bevy_bistro_scene</a>
+</div>
+---
+layout: image-right
+image: oicana.png
+imageColClass: oicana-image
 ---
 
-# About me
+# Niklas Eicker
 
-- Software consultant by trade (not a gamedev!)
-- Working with Bevy in my freetime for more than 3 years
-- Maintain multiple open source Bevy plugins
+- Software consultant
+- Playing with Bevy in my free-time for more than 3 years
+- Maintaining multiple open source Bevy extensions/projects
 
+---
+layout: image-right
+image: bevy_github.png
 ---
 
 # Bevy
@@ -21,17 +36,29 @@ theme: dracula
 - Licensed MIT OR Apache 2.0
 - Big community
   - official Discord with thousands of active users
-  - 1.3 million downloads
-  - 33k stars on GitHub
-- Cross-platform: Linux, Windows, macOS, Browser, Android, iOS
 
+---
+layout: image-right
+image: tunnet_steam.png
+---
+
+# Projects using Bevy
+
+- hundreds of small games on itch.io [^1]
+- some releases on steam and mobile stores
+
+<br/>
+
+<img alt="Bevy games on itch.io" src="/bevy_on_itch.png" width="500"/>
+
+[^1]: https://itch.io/games/tag-bevy
 ---
 
 # What makes Bevy different?
 
 - Rust
 - Entity Component System
-- Modular
+- Modularity
 
 ---
 
