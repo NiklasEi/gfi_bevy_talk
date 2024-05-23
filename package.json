@@ -13,6 +13,7 @@
     "vue": "^3.4.27"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.66",
     "playwright-chromium": "^1.42.1"
   }
 }

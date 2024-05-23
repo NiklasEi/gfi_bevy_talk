@@ -10,7 +10,7 @@ favicon: https://www.nikl.me/favicon.ico
 A refreshingly simple data-driven game engine built in Rust
 Free and Open Source Forever!
 
-<div class="footnotes">
+<div class="footnotes-right">
 <a href="https://github.com/DGriffin91/bevy_bistro_scene">https://github.com/DGriffin91/bevy_bistro_scene</a>
 </div>
 ---
@@ -24,8 +24,12 @@ imageColClass: oicana-image
 - Software consultant
 - Playing with Bevy in my free-time for more than 3 years
 - Maintaining multiple open source Bevy extensions/projects
+<br/>
+<br/>
 
-<div class="footnotes">
+<mdi-github/> https://github.com/NiklasEi
+
+<div class="footnotes-right">
 <a href="https://niklme.itch.io/oicana">https://niklme.itch.io/oicana</a>
 </div>
 ---
@@ -35,12 +39,13 @@ image: bevy_github.png
 
 # Bevy
 
-- First public version August 2020
+- 2D and 3D renderer
+- 6 officially supported platforms
 - Licensed MIT OR Apache 2.0
-- Big community
-  - official Discord with thousands of active users
+- Active community [^1]
 
-<div class="footnotes">
+[^1]: https://discord.gg/bevy
+<div class="footnotes-right">
 <a href="https://github.com/bevyengine/bevy">https://github.com/bevyengine/bevy</a>
 </div>
 ---
@@ -58,6 +63,9 @@ image: tunnet_steam.png
 <img alt="Bevy games on itch.io" src="/bevy_on_itch.png" width="500"/>
 
 [^1]: https://itch.io/games/tag-bevy
+<div class="footnotes-right">
+<a href="https://store.steampowered.com/app/2286390/Tunnet">https://store.steampowered.com/app/2286390/Tunnet</a>
+</div>
 ---
 
 # What makes Bevy different?

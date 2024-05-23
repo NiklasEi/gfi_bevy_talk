@@ -22,6 +22,14 @@
     bottom: 0px;
 }
 
+.footnotes-right {
+    @apply text-sm opacity-75;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 90px;
+}
+
 .oicana-image {
     background-size: contain !important;
     width: 400px;
