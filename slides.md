@@ -168,6 +168,11 @@ struct MyComponent {
     more_data: String
 }
 ```
+
 ---
+
 # Time to play around with Bevy
+
+The project can be found at https://github.com/NiklasEi/gfi_bevy_talk_code
+
 ---
