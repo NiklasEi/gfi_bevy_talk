@@ -136,7 +136,7 @@ image: bevy_crates.png
 </div>
 ---
 
-# Let's code - Hello World
+# Bevy - Hello World
 
 ```rust
 use bevy::prelude::*;
@@ -149,4 +149,25 @@ fn hello_world() {
   println!("Hello World");
 }
 ```
+---
+
+# Bevy ECS
+
+A system spawning a new entity with a custom component
+```rust
+fn my_system(mut commands: Commands) {
+    commands.spawn(MyComponent {
+        data: 42.,
+        more_data: "Hello there!".into()
+    });
+}
+
+#[derive(Component)]
+struct MyComponent {
+    data: f32,
+    more_data: String
+}
+```
+---
+# Time to play around with Bevy
 ---
