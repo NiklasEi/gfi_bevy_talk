@@ -19,20 +19,33 @@
     @apply text-sm opacity-75;
     font-size: 10px;
     position: absolute;
-    bottom: 0px;
+    bottom: 5px;
 }
 
 .footnotes-right {
     @apply text-sm opacity-75;
     font-size: 10px;
     position: absolute;
-    bottom: 0px;
+    bottom: 5px;
     right: 90px;
 }
 
 .oicana-image {
     background-size: contain !important;
     width: 400px;
+}
+
+.logo {
+    background-size: contain !important;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.bigger-left {
+    width: 600px;
 }
 
 li.footnote-item p {

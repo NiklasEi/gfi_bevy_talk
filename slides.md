@@ -22,7 +22,7 @@ imageColClass: oicana-image
 # Niklas Eicker
 
 - Software consultant
-- Playing with Bevy in my free-time for more than 3 years
+- Using Bevy in my free-time for more than 3 years
 - Maintaining multiple open source Bevy extensions/projects
 <br/>
 <br/>
@@ -39,6 +39,7 @@ image: bevy_github.png
 
 # Bevy
 
+- First version August 2020
 - 2D and 3D renderer
 - 6 officially supported platforms
 - Licensed MIT OR Apache 2.0
@@ -56,7 +57,8 @@ image: tunnet_steam.png
 # Projects using Bevy
 
 - hundreds of small games on itch.io [^1]
-- some releases on steam and mobile stores
+- some projects on steam and mobile stores
+- Usage outside of game dev (e.g. CAD)
 
 <br/>
 
@@ -67,13 +69,25 @@ image: tunnet_steam.png
 <a href="https://store.steampowered.com/app/2286390/Tunnet">https://store.steampowered.com/app/2286390/Tunnet</a>
 </div>
 ---
+layout: image-right
+image: bevy-logo.png
+class: bigger-left
+imageColClass: logo
+---
 
 # What makes Bevy different?
 
-- Rust
-- Entity Component System
-- Modularity
+- Written in Rust
+- Everything based on Entity Component System (ECS)
+- Very modular (~40 "plugins")
 
+<div class="footnotes-right">
+Bevy logo (<a href="http://opensource.org/licenses/MIT">MIT</a>)
+</div>
+---
+layout: image-right
+image: rust-logo.png
+imageColClass: logo
 ---
 
 # Rust
@@ -81,6 +95,11 @@ image: tunnet_steam.png
 - Performance comparable with C and C++
 - Automatic memory management without GC
 - Nice, modern tooling
+
+<div class="footnotes-right">
+Rust logo (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>)
+</div>
+
 
 ---
 
@@ -90,12 +109,44 @@ image: tunnet_steam.png
 - Can lead to very modular code
 - Good performance
 
+--- 
+
+# Short Intro to ECS
+
+
+*Entity*: Unique identifier for anything in the "world" (e.g. player, tree, camera)
+
+*Component*: Data; components get attached to entities
+
+*System*: Behaviour; can manipulate components
+
+---
+layout: image-right
+image: bevy_crates.png
 ---
 
 # Bevy Plugins
 
 - Group systems and related components by domain
-- Easy to use from other crates
+- Easy to use from third-party crates
 - This is how the whole engine is built up!
 
+<div class="footnotes-right">
+<a href="https://github.com/bevyengine/bevy/tree/main/crates">https://github.com/bevyengine/bevy/tree/main/crates</a>
+</div>
+---
+
+# Let's code - Hello World
+
+```rust
+use bevy::prelude::*;
+
+fn main() {
+  App::new().add_systems(Startup, hello_world).run()
+}
+
+fn hello_world() {
+  println!("Hello World");
+}
+```
 ---
