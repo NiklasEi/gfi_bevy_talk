@@ -142,7 +142,7 @@ image: bevy_crates.png
 use bevy::prelude::*;
 
 fn main() {
-  App::new().add_systems(Startup, hello_world).run()
+  App::new().add_systems(Startup, hello_world).run();
 }
 
 fn hello_world() {
