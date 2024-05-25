@@ -28,6 +28,10 @@ imageColClass: oicana-image
 <br/>
 
 <mdi-github/> https://github.com/NiklasEi
+<br/>
+<br/>
+<br/>
+<mdi-book-open-outline/> <a href="https://gfi.slides.nikl.me">https://gfi.slides.nikl.me</a>
 
 <div class="footnotes-right">
 <a href="https://niklme.itch.io/oicana">https://niklme.itch.io/oicana</a>
