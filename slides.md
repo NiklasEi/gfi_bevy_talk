@@ -162,10 +162,10 @@ fn hello_world() {
 
 # Bevy Examples
 
-Examples are first-class citizens in Rust. Bevys examples
-* get compiled in CI
-* get snapshot tested on different platforms
+Bevy has more than a hundred official examples
 * cover most features of Bevy
+* compiled in CI
+* snapshot tested on different platforms
 
 ---
 
