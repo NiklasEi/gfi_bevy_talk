@@ -120,6 +120,11 @@ Rust logo (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>)
 
 *System*: Behaviour; can manipulate components
 
+<br/>
+<br/>
+
+If possible, Bevy will automatically run Systems in parallel
+
 ---
 layout: image-right
 image: bevy_crates.png
@@ -142,7 +147,7 @@ image: bevy_crates.png
 use bevy::prelude::*;
 
 fn main() {
-  App::new().add_systems(Startup, hello_world).run();
+  App::new().add_systems(Update, hello_world).run();
 }
 
 fn hello_world() {
@@ -151,28 +156,17 @@ fn hello_world() {
 ```
 ---
 
-# Bevy ECS
+# Bevy Examples
 
-A system spawning a new entity with a custom component
-```rust
-fn my_system(mut commands: Commands) {
-    commands.spawn(MyComponent {
-        data: 42.,
-        more_data: "Hello there!".into()
-    });
-}
-
-#[derive(Component)]
-struct MyComponent {
-    data: f32,
-    more_data: String
-}
-```
+Examples are first-class citizens in Rust. Bevys examples
+* get compiled in CI
+* get snapshot tested on different platforms
+* cover most features of Bevy
 
 ---
 
 # Time to play around with Bevy
 
-The project can be found at https://github.com/NiklasEi/gfi_bevy_talk_code
+The code can be found at https://github.com/NiklasEi/gfi_bevy_talk_code
 
 ---
