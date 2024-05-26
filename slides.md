@@ -134,7 +134,7 @@ layout: image-right
 image: bevy_crates.png
 ---
 
-# Bevy Plugins
+# Modularity - Plugins
 
 - Group systems and related components by domain
 - Easy to use from third-party crates
@@ -158,14 +158,6 @@ fn hello_world() {
   println!("Hello World");
 }
 ```
----
-
-# Bevy Examples
-
-Bevy has more than a hundred official examples
-* cover most features of Bevy
-* compiled in CI
-* snapshot tested on different platforms
 
 ---
 
@@ -174,3 +166,25 @@ Bevy has more than a hundred official examples
 The code can be found at https://github.com/NiklasEi/gfi_bevy_talk_code
 
 ---
+
+# The end
+
+### Where to go from here
+
+- Learning materials: https://bevyengine.org/learn/
+- Bevy examples: https://github.com/bevyengine/bevy/tree/main/examples
+- Official Discord server: https://discord.gg/bevy
+
+[//]: # (---)
+
+[//]: # ()
+[//]: # (# Bevy Examples)
+
+[//]: # ()
+[//]: # (Bevy has more than a hundred official examples)
+
+[//]: # (* cover most features of Bevy)
+
+[//]: # (* compiled in CI)
+
+[//]: # (* snapshot tested on different platforms)
